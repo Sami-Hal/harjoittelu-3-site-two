@@ -1,14 +1,16 @@
 body{
     background: gray;
+    overflow: hidden;
+    margin-top: 0px;
 }
 .wrapper{
     width: 90%; 
+    overflow: hidden;
     background: #ffffff;
-    margin: 0 0;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 15% 75% 10%;
     grid-auto-rows: auto;
-    justify-content: center;
 }
 .wrapper > div{
     background: salmon;
@@ -16,7 +18,7 @@ body{
 }
 .header{
     grid-column: 2 / 4;
-    grid-row: 1 / 2
+    grid-row: 1 / 2;
 }
 .sidebar{
     grid-column: 1 / 2;
@@ -32,5 +34,5 @@ body{
 }
 .footer{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 3 /4;
 }
