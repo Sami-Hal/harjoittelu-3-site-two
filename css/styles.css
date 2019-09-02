@@ -60,6 +60,7 @@ body{
     padding: 30px;
     width: 60%;
     display: grid;
+    grid-gap: 10px;
 }
 .main-right{
     padding: 20px;
